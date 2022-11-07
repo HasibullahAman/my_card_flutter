@@ -123,7 +123,11 @@ void void main() {
 class MyApp() StatelessWidget{
   @override
   Widget bulid(BuildContext context){
-    
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blue[50],
+      )
+    );
   }
 }
 
