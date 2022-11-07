@@ -120,13 +120,14 @@ void void main() {
   runApp(MyApp());
 }
 
-class MyApp() StatelessWidget{
+class MyApp() extends StatelessWidget{
   @override
   Widget bulid(BuildContext context){
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blue[50],
-      )
+        body: Container(),
+      ),
     );
   }
 }
